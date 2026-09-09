@@ -64,3 +64,12 @@
   .cta .button{width:100%;margin:0}
   .cta small{font-size:8px;line-height:1.2}
 }
+
+@media (max-width:620px){
+  .hero-copy .brand-row{justify-content:center;gap:0}
+  .hero-copy .brand-row img:last-child{display:none}
+  .hero-copy h1{text-align:center}
+  .hero-copy .lead{max-width:340px;margin-left:auto;margin-right:auto;text-align:center}
+  .hero-shape{display:none}
+  .hero-copy .button{order:4;min-height:42px;margin:14px auto 28px;padding:0 18px;font-size:10.5px}
+}
