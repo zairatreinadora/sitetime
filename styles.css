@@ -66,8 +66,7 @@ a { font-family: inherit; font-weight: 700; }
 .video-card > div:first-child { max-width: 360px; }
 .video-card p { margin: 0; font-size: 1rem; line-height: 1.55; }
 .video-image { position: relative; width: 100%; overflow: hidden; aspect-ratio: 16 / 9; border-radius: 14px; }
-.video-image img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
-.video-image a { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: grid; place-items: center; width: 72px; height: 72px; padding-left: 5px; border: 3px solid #fff; border-radius: 50%; background: rgba(7, 89, 190, .9); color: #fff; font-size: 1.7rem; text-decoration: none; box-shadow: 0 5px 16px rgba(0, 27, 70, .55); }
+.video-image iframe { display: block; width: 100%; height: 100%; border: 0; }
 
 .logic { padding: var(--space-5); text-align: center; }
 .logic h2 { margin-bottom: var(--space-4); }
