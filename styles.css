@@ -34,18 +34,18 @@
   .video-image{width:min(100%,320px);height:auto;aspect-ratio:16/10}
   .video-image img{width:100%;height:100%;object-fit:cover}
 
-  .logic{padding:14px 10px;text-align:center}
+  .logic{height:auto;padding:18px 10px 16px;text-align:center}
   .logic h2{font-size:19px}
-  .steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 8px}
+  .steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 8px;margin:10px 0 14px}
   .steps span{min-width:0;display:flex;flex-direction:column;align-items:center;gap:3px}
   .steps span:last-of-type{grid-column:1/-1}
   .steps em{display:none}
   .logic>p{font-size:11px;line-height:1.25}
 
-  .pillars{padding:14px 8px}
+  .pillars{height:auto;padding:18px 8px}
   .pillars h2{font-size:18px;text-align:center}
   .pillar-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
-  .pillar-grid article{min-width:0;padding:10px 6px}
+  .pillar-grid article{height:auto;min-height:128px;min-width:0;padding:10px 6px}
   .pillar-grid article b{font-size:11px}
   .pillar-grid article p{font-size:10px;line-height:1.2}
 
