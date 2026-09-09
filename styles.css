@@ -57,13 +57,19 @@ a { font-family: inherit; font-weight: 700; }
 .mobile-trainer-copy h2 { margin-bottom: var(--space-3); font-size: clamp(1.7rem, 3vw, 2.5rem); }
 .mobile-trainer-copy p { margin: 0; color: #263958; font-size: 1rem; line-height: 1.6; }
 
-.alignment { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-5); padding: var(--space-5); }
-.alignment > div, .alignment blockquote { min-width: 0; }
-.alignment ul { margin: 0; padding: 0; list-style: none; font-size: 1rem; line-height: 1.7; }
-.alignment li { display: flex; align-items: flex-start; gap: 10px; }
-.alignment li::before { content: "✓"; flex: 0 0 18px; display: inline-grid; place-items: center; width: 18px; height: 18px; margin-top: 4px; border-radius: 50%; background: var(--blue); color: #fff; font-size: .68rem; font-weight: 900; }
-.alignment blockquote { margin: 0; padding: var(--space-2) 0 var(--space-2) var(--space-5); border-left: 1px solid #b8d9f4; color: var(--blue); font-size: 1.05rem; font-weight: 700; line-height: 1.45; }
-.people-icon { display: block; margin-bottom: var(--space-2); color: var(--blue); font-size: 2rem; letter-spacing: -.45rem; }
+.pain-section { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(280px, .7fr); align-items: stretch; gap: var(--space-5); padding: var(--space-5); background: linear-gradient(135deg, #fff 0%, #f8fbff 100%); }
+.pain-copy { min-width: 0; }
+.pain-eyebrow { display: inline-flex; margin-bottom: var(--space-2); padding: 7px 12px; border: 1px solid #ffd2ad; border-radius: 999px; background: #fff4e8; color: #d9670d; font-size: .72rem; font-weight: 700; letter-spacing: .13em; line-height: 1; text-transform: uppercase; }
+.pain-section h2 { max-width: 620px; margin-bottom: var(--space-2); font-size: clamp(1.75rem, 3vw, 2.65rem); }
+.pain-intro { max-width: 650px; margin-bottom: var(--space-4); color: #263958; font-size: 1rem; line-height: 1.6; }
+.pain-section ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-2); margin: 0; padding: 0; list-style: none; }
+.pain-section li { min-width: 0; display: flex; align-items: center; gap: 10px; padding: 12px 14px; border: 1px solid #dbeaf6; border-radius: 12px; background: #fff; color: var(--navy); font-size: .86rem; font-weight: 600; line-height: 1.35; box-shadow: 0 3px 9px rgba(10, 85, 147, .05); }
+.pain-section li::before { content: ""; flex: 0 0 8px; width: 8px; height: 8px; border-radius: 2px; background: #ef7c1b; box-shadow: 0 0 0 4px #fff0e2; }
+.pain-section blockquote { position: relative; min-width: 0; display: flex; flex-direction: column; justify-content: center; margin: 0; padding: var(--space-5); overflow: hidden; border-radius: 16px; background: linear-gradient(145deg, #0b61bf, #052d7d); color: #fff; box-shadow: 0 12px 26px rgba(7, 37, 109, .18); }
+.pain-section blockquote::before { content: "“"; position: absolute; right: 18px; top: -20px; color: rgba(255, 255, 255, .12); font-family: Georgia, serif; font-size: 8rem; line-height: 1; }
+.pain-section blockquote::after { content: ""; width: 52px; height: 4px; margin-top: var(--space-4); border-radius: 999px; background: #f58b2a; }
+.pain-section blockquote p { position: relative; margin-bottom: var(--space-2); color: #cde5ff; font-size: 1rem; line-height: 1.5; }
+.pain-section blockquote strong { position: relative; font-size: clamp(1.2rem, 2.2vw, 1.65rem); line-height: 1.35; }
 
 .video-card { display: grid; grid-template-columns: minmax(240px, .8fr) minmax(0, 1.45fr); align-items: center; gap: var(--space-5); padding: var(--space-5); }
 .video-card > div:first-child { max-width: 360px; }
@@ -142,10 +148,13 @@ a { font-family: inherit; font-weight: 700; }
   .mobile-trainer-copy h2 { margin-bottom: var(--space-2); font-size: 1.45rem; }
   .mobile-trainer-copy p { font-size: .95rem; line-height: 1.55; }
 
-  .alignment { grid-template-columns: 1fr; gap: var(--space-4); }
-  .alignment h2 { text-align: center; }
-  .alignment ul { font-size: .95rem; line-height: 1.55; }
-  .alignment blockquote { padding: var(--space-4) 0 0; border-top: 1px solid #b8d9f4; border-left: 0; font-size: 1rem; text-align: center; }
+  .pain-section { grid-template-columns: 1fr; gap: var(--space-3); text-align: left; }
+  .pain-section h2 { font-size: 1.75rem; }
+  .pain-intro { margin-bottom: var(--space-3); font-size: .95rem; line-height: 1.55; }
+  .pain-section ul { grid-template-columns: 1fr; gap: var(--space-1); }
+  .pain-section li { padding: 11px 12px; font-size: .86rem; }
+  .pain-section blockquote { padding: var(--space-4); text-align: left; }
+  .pain-section blockquote strong { font-size: 1.2rem; }
 
   .video-card { display: flex; flex-direction: column; align-items: center; gap: var(--space-3); text-align: center; }
   .video-card > div:first-child { max-width: 360px; }
