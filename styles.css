@@ -45,7 +45,7 @@ a { font-family: inherit; font-weight: 700; }
 .hero-shape { position: relative; min-height: 520px; }
 .hero-shape::before { content: ""; position: absolute; right: -30px; top: 34px; width: 390px; height: 390px; border-radius: 50%; background: #eaf4ff; }
 .hero-shape::after { content: ""; position: absolute; right: -110px; bottom: -135px; width: 470px; height: 470px; border-radius: 50%; background: linear-gradient(145deg, #0873d6, #003fa7); }
-.hero-shape img { position: absolute; z-index: 2; right: 24px; bottom: -34px; width: min(92%, 430px); height: auto; object-fit: contain; }
+.hero-shape img { position: absolute; z-index: 2; right: 0; bottom: 0; width: 100%; height: 100%; object-fit: contain; object-position: center bottom; }
 .brand-mark { position: absolute; z-index: 3; right: 42px; top: 76px; color: #89bcf4; font-size: 76px; line-height: 1; }
 
 .mobile-trainer { text-align: center; }
