@@ -30,6 +30,9 @@ a { font-family: inherit; font-weight: 700; }
 .card, .mobile-trainer-card { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
 
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 24px; border-radius: 999px; background: linear-gradient(180deg, #0b66cb, #003f9f); box-shadow: 0 7px 16px rgba(0, 70, 155, .28); color: #fff; font-size: .78rem; text-align: center; text-decoration: none; text-transform: uppercase; }
+.hero-button { background: linear-gradient(145deg, #ffad42, #eb7415); box-shadow: 0 7px 16px rgba(226, 111, 20, .34); color: #fff; transition: background .2s ease, box-shadow .2s ease; }
+.hero-button:hover { background: linear-gradient(145deg, #f89a28, #d9650c); box-shadow: 0 8px 18px rgba(210, 91, 7, .4); }
+.hero-button:focus-visible { outline: 3px solid #0758bf; outline-offset: 3px; }
 
 .hero { position: relative; min-height: 520px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(380px, .92fr); overflow: hidden; border-radius: 24px; background: radial-gradient(circle at 78% 22%, #e8f4ff, transparent 40%); }
 .hero-copy { z-index: 3; align-self: center; padding: var(--space-5) 0 var(--space-5) var(--space-6); }
