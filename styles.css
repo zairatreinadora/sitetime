@@ -38,7 +38,6 @@ a { font-family: inherit; font-weight: 700; }
 .hero-copy { z-index: 3; align-self: center; padding: var(--space-5) 0 var(--space-5) var(--space-6); }
 .brand-row { min-height: 68px; display: flex; align-items: center; gap: var(--space-4); margin-bottom: var(--space-3); }
 .brand-row img:first-child { width: 210px; height: 64px; object-fit: contain; }
-.brand-row img:last-child { width: 118px; height: 58px; object-fit: contain; }
 .hero h1 { max-width: 620px; margin-bottom: var(--space-3); color: var(--navy); font-size: clamp(2.7rem, 4vw, 3.65rem); line-height: 1.02; letter-spacing: -.045em; }
 .hero p { max-width: 580px; margin-bottom: var(--space-3); font-size: 1rem; line-height: 1.55; }
 .hero .lead { color: var(--blue); font-size: 1.05rem; font-weight: 700; }
@@ -132,7 +131,6 @@ a { font-family: inherit; font-weight: 700; }
   .hero-copy { display: flex; flex-direction: column; align-items: center; padding: var(--space-3) var(--space-2) var(--space-4); }
   .brand-row { min-height: 58px; justify-content: center; gap: 0; margin-bottom: var(--space-2); }
   .brand-row img:first-child { width: min(210px, 70vw); height: 60px; }
-  .brand-row img:last-child { display: none; }
   .hero h1 { margin-bottom: var(--space-2); font-size: clamp(2.25rem, 10.5vw, 3.2rem); }
   .hero .lead { max-width: 360px; margin-bottom: var(--space-3); font-size: .95rem; line-height: 1.35; }
   .hero-copy > p:not(.lead) { display: none; }
